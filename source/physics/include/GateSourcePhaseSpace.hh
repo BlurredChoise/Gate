@@ -6,10 +6,12 @@ of the GNU Lesser General  Public Licence (LGPL)
 See LICENSE.md for further details
 ----------------------*/
 
-#include "GateConfiguration.h"
-#ifdef G4ANALYSIS_USE_ROOT
+
 #ifndef GATEPHASESPACESOURCE_HH
 #define GATEPHASESPACESOURCE_HH
+
+#include "GateConfiguration.h"
+#ifdef G4ANALYSIS_USE_ROOT
 
 #include "TROOT.h"
 #include "TFile.h"
